@@ -1,0 +1,16 @@
+.text-3xl {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    background: rgb(36,0,0);
+background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(121,9,9,1) 35%, rgba(105,0,0,1) 100%);
+}
+
+.text-white {
+    width: 400px;
+}
+
+.img {
+    width: 400px;
+}
