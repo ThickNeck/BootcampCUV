@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://cuarteldelmetal.com/wp-content/uploads/2022/03/carpenter-brut-1592568743.1799803.2560x1440.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.void {
+    width: 50%;
+}
+
+.formula {
+    width: 50%;
+}
+
+.registro {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    color: white;
+    font-size: xx-large;
+}
