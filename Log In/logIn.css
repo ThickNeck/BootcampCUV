@@ -1,27 +1,74 @@
 body {
-    background-image: url(https://cuarteldelmetal.com/wp-content/uploads/2022/03/carpenter-brut-1592568743.1799803.2560x1440.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url(https://www.retro-synthwave.com/wp-content/uploads/2017/06/Carpenter-Brut-ITW-retro-synthwave-live.jpg);
     background-size: cover;
+    margin: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .void {
     width: 50%;
+    height: 100vh;
 }
 
-.formula {
+.container {
     width: 50%;
-}
-
-.registro {
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.titulo {
-    color: white;
-    font-size: xx-large;
+.marco {
+    background-color: rgba(40, 40, 40, 0.5);
+    border-radius: 20px;
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+h1 {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    margin: 10px;
+}
+
+input {
+    border: 0px;
+    border-radius: 5px;
+}
+
+label {
+    color: white;
+}
+
+#login {
+    padding: 14px 25px;
+    text-transform: capitalize;
+    cursor: pointer;    
+}
+
+#cancel {
+    align-self: center;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+

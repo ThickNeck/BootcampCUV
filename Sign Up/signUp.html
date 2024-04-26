@@ -3,32 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="signUp.css">
     <title>¡Unite a la comunidad!</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="signUp.css">
 </head>
 <body>
-<div class="formula flex flex-row flex-wrap justify-around">
-    <div class="h-3/6 m-20">
-        <p class="text-5xl text-white">Registro</p>
-        <br>
-        <form action="https://formspree.io/f/myyrnbkb" method="post">
-            <label class="text-white" for="nombre">Nombre <input class="text-black" type="text" name="nombre"></label>
-            <br><br/>
-            <label class="text-white" for="apellido">Apellido <input class="text-black" type="text" name="apellido"></label>
-            <br><br/>
-            <label class="text-white" for="mail">Email <input class="text-black" type="email" name="mail"></label>
-            <br><br/>
-            <label class="text-white" for="contra">Contraseña <input class="text-black" type="password" name="contra" minlength="8" maxlength="20"></label>
-            <br><br/>
-        </form>
-        <div class="botones flex justify-evenly">
-            <a href=""><button class="m-2 text-white">Registrarse</button></a>
-            <a href="file:///C:/Users/yanlu/OneDrive/Escritorio/plataformaDisquette/index.html"><button class="m-2 text-white">Cancelar</button></a>
+    <div class="container">
+        <div class="marco">
+            <h1>Registro</h1>
+            
+            <form action="file:///C:/Users/yanlu/OneDrive/Escritorio/plataformaDisquette/Home/home.html" method="post">
+                <div class="formulario"><label for="firstname">Nombre <input type="text" name="firstname" id="firstname"></label></div>
+                <div class="formulario"><label for="lastname">Apellido <input type="text" name="lastname" id="lastname"></label></div>
+                <div class="formulario"><label for="email">E-mail <input type="email" name="email" id="email"></label></div>
+                <div class="formulario"><label for="password">Contraseña <input type="password" name="password" id="password"></label></div>
+                <input id="signup" class="formulario" type="submit" value="Registrarse">
+                <a id="cancel" class="formulario" href="file:///C:/Users/yanlu/OneDrive/Escritorio/plataformaDisquette/index.html">Cancelar</button></a>
+            </form>
+            
         </div>
+    </div>            
+
+    <div class="void">
     </div>
-    
-    <div class="void h-3/6 m-20"></div>
-</div>
 </body>
 </html>
