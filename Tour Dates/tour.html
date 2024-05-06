@@ -6,8 +6,8 @@
     <title>¡Comprá tus tickets!</title>
     <link rel="stylesheet" href="tour.css">
 </head>
-<body>
 
+<body>
 <div class="header">
 
     <a class="boton" href="file:///C:/Users/yanlu/OneDrive/Escritorio/plataformaDisquette/Home/home.html">Atrás</a>
@@ -30,6 +30,8 @@
 
 <div class="menu">
 
+    <span id="welcome"></span>
+
     <h2>Tours y fechas:</h2>
 
     <div class="container">
@@ -44,29 +46,31 @@
                 <p>3-12-2022</p>
             </div>
             
-            <div class="location">
-                <p>Esch-Sur-Alzette (Lux)</p>
-                <p>Paris (Fr)</p>
-                <p>Manchester (UK)</p>
-                <p>London (UK)</p>
-                <p>Bristol (UK)</p>
-                <p>St. Petersburg (Ru)</p>
-                <p>Moscow (Ru)</p>
+            <div class="locationContainer">
+                <p id="place0">Esch-Sur-Alzette (Lux)</p>
+                <p id="place1">Paris (Fr)</p>
+                <p id="place2">Manchester (UK)</p>
+                <p id="place3">London (UK)</p>
+                <p id="place4">Bristol (UK)</p>
+                <p id="place5">St. Petersburg (Ru)</p>
+                <p id="place6">Moscow (Ru)</p>
             </div>
             
-            <div class="botonTicket">
-                <button>¡Comprar ticket!</button>
-                <button>¡Comprar ticket!</button>
-                <button>¡Comprar ticket!</button>
-                <button>¡Comprar ticket!</button>
-                <button>¡Comprar ticket!</button>
-                <button>¡Comprar ticket!</button>
-                <button>¡Comprar ticket!</button>
+            <div class="botonTicketContainer">
+                <button id="button0" name="button0">¡Comprar ticket!</button>
+                <button id="button1" name="button1">¡Comprar ticket!</button>
+                <button id="button2" name="button2">¡Comprar ticket!</button>
+                <button id="button3" name="button3">¡Comprar ticket!</button>
+                <button id="button4" name="button4">¡Comprar ticket!</button>
+                <button id="button5" name="button5">¡Comprar ticket!</button>
+                <button id="button6" name="button6">¡Comprar ticket!</button>
             </div>
         </div>
     </div>
 
 </div>
 
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="tour.js"></script>
 </body>
 </html>

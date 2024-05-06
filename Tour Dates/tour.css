@@ -46,10 +46,15 @@ h1 {
     text-decoration: none;
 }
 
+#welcome {
+    background-color: black;
+    color:white;
+    margin: 10px;
+}
+
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    margin: 20px;
 }
 
 .container {
@@ -81,7 +86,7 @@ h2 {
     justify-content: space-evenly;
 }
 
-.location {
+.locationContainer {
     color: white;
     display: flex;
     flex-direction: column;
@@ -91,7 +96,7 @@ h2 {
     justify-content: space-evenly;
 }
 
-.botonTicket {
+.botonTicketContainer {
     display: flex;
     flex-direction: column;
     height: 100%;
